@@ -36,11 +36,6 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
-  border-radius: 1px;
-  
-  padding: 2px;
-}
 
 
 
@@ -48,9 +43,7 @@ input[type=submit]:hover {
   font-size: 20px;
   margin-top: 60px;
 
-  
-
-}
+  }
 
 .card{
   color: #ffff4d;

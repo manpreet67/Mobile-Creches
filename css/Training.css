@@ -90,18 +90,50 @@ input[type=submit]:hover {
   }
   .a p{
 
-margin-right: 20px;
-margin-left: 20px;
+
+
 text-align: center;
-width: 60%;
+
 margin-top: 100px;
 
   }
   
   .a img{
     height: 400px;
+  
     width: auto;
     display: inline-block;
 position: relative;
 
+}
+
+.card{
+  margin-left: 200px;
+  margin-right: 200px;
+  border-style: none;
+}
+
+
+.card img{
+  height: 300px;
+  width: auto;
+}
+.card-title{
+
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.button{
+
+
+  font-size: 20px;
+  background-color: #b00707;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
 }
