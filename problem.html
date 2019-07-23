@@ -12,94 +12,94 @@
 </head>
 <body>
 <!-- Navbar  -->
-<nav class="navbar fixed-top navbar-expand-md navbar-dark   bg-danger mb-4">
-  <a class="navbar-brand" href="#"><img src="images/MC logo.jpg" height="50px" width="auto"></a>
-  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    
+    <button class="navbar-toggler" data-toggle="collapse" 
+    data-target="#collapse_target">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse" id="collapse_target">
 
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <a class="navbar-brand" href="#"><img src="img/mc-logo.webp" class="w-75"></a>
+
+    <ul class="navbar-nav nav-fill w-75">
+
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active" >Home</a>
       </li>
-     
+
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target1">
           About Us
+          <span class="caret"></span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Our Values</a>
-          <a class="dropdown-item" href="#">Our Story</a>
-          <a class="dropdown-item" href="#">Our Team</a>
-           <a class="dropdown-item" href="#">Our Partners</a>
-            <a class="dropdown-item" href="#">Our Financials</a>
-             <a class="dropdown-item" href="#">Our Governing Council</a>
-             
+        <div class="dropdown-menu" aria-labelledby="dropdown_target1">
+          <a  class="dropdown-item" href="#">Our Values</a>
+          <a  class="dropdown-item" href="#">Our Story</a>
+          <a  class="dropdown-item" href="#">Our Team</a>
+          <a  class="dropdown-item" href="#">Our Partners</a>
+          <a  class="dropdown-item" href="#">Our Financials</a>
+          <a  class="dropdown-item" href="#">Our Governing Council</a>
         </div>
       </li>
-
+      
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target2">
           Our Work
+          <span class="caret"></span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="field_program.html">Field Program</a>
-          <a class="dropdown-item" href="Training.html">Training</a>
-          <a class="dropdown-item" href="Advocacy.html">Advocacy</a>
-          
-             
+        <div class="dropdown-menu" aria-labelledby="dropdown_target2">
+          <a  class="dropdown-item" href="#">Field Program</a>
+          <a  class="dropdown-item" href="#">Training</a>
+          <a  class="dropdown-item" href="#">Advocacy</a>
         </div>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target3">
           Why Us
+          <span class="caret"></span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="problem.html">The Problem </a>
-          <a class="dropdown-item" href="solution.html">Our Solution</a>
-          <a class="dropdown-item" href="impact.html">Our Impact</a>
-           
-             
+        <div class="dropdown-menu" aria-labelledby="dropdown_target3">
+          <a  class="dropdown-item" href="#">The Problem</a>
+          <a  class="dropdown-item" href="#">Our Solution</a>
+          <a  class="dropdown-item" href="#">Our Impact</a>
         </div>
       </li>
-
-
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target4">
           Join Us
+          <span class="caret"></span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Individuals</a>
-          <a class="dropdown-item" href="#">Corporates</a>
-          <a class="dropdown-item" href="#">Institution</a>
-          <a class="dropdown-item" href="#">Tenders</a>
-          <a class="dropdown-item" href="#">Volunteers</a>
-          <a class="dropdown-item" href="#">Careers</a>
-          <a class="dropdown-item" href="#">Contact</a>
-             
+        <div class="dropdown-menu" aria-labelledby="dropdown_target4">
+          <a  class="dropdown-item" href="#">Individuals</a>
+          <a  class="dropdown-item" href="#">Corporates</a>
+          <a  class="dropdown-item" href="#">Institutions</a>
+          <a  class="dropdown-item" href="#">Tenders</a>
+          <a  class="dropdown-item" href="#">Volunteers</a>
+          <a  class="dropdown-item" href="#">Careers</a>
+          <a  class="dropdown-item" href="#">Contact</a>
         </div>
       </li>
-     
-    
-     <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Donate</a>
-      </li>
-    </ul> 
 
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-dark" type="submit">Search</button>
-    </form>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">Blog</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">Donate</a>
+      </li>
+
+    </ul>
   </div>
 </nav>
+
+
+
 <br><br><br>
 
 

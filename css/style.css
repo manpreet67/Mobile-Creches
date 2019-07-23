@@ -138,13 +138,42 @@ transform:translatey(0);
 
 
 
-.nav-link
-{
-  color: white; 
-  padding: 5px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
+.bg-dark{
+      background-color: transparent !important;
+      
+
+    }
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+
+    }
+    .nav-link{
+      
+      color: #fff !important;
+      font-weight: 400;
+    }
+    .active{
+      background-color: transparent;
+      font-weight: 600;
+    }
+    
+    .dropdown-menu{
+      
+      color: #fff;
+      background-color: #fff;
+
+    }
+    .dropdown-item{
+      color: black;
+      font-weight: 400;
+    }
+
+
+
+
+
+
+
 
 
 .list-unstyled a{
@@ -166,7 +195,7 @@ transform:translatey(0);
 .button{
 
   font-size: 20px;
-  background-color: #cc0000;
+  background-color: #b00707;
   color: white;
   border-radius: 4px;
   padding: 10px;
@@ -178,18 +207,19 @@ transform:translatey(0);
   .button2{
 
   font-size: 20px;
-  background-color: #cc0000;
+  background-color:  #b00707;
   color: white;
   border-radius: 4px;
   padding: 10px;
   text-align: center;
   margin-left: 10px;
+
   
   }
   .button3{
 
   font-size: 20px;
-  background-color: #cc0000;
+  background-color:  #b00707;
   color: white;
   border-radius: 4px;
   padding: 10px;
@@ -199,7 +229,7 @@ transform:translatey(0);
   .button4{
 
   font-size: 20px;
-  background-color: #cc0000;
+  background-color:  #b00707;
   color: white;
   border-radius: 4px;
   padding: 10px;
@@ -211,7 +241,7 @@ transform:translatey(0);
   .card-textt
   {
     text-align: right;
-    background-color: #cc0000
+    background-color:  #b00707
     color:white;
     padding: 10px;
 
@@ -234,11 +264,229 @@ transform:translatey(0);
   }
 
 
+ .who h1{
 
-  .bg-danger{
-    background-color: #b00707 !important;
-  }
 
-  .toggle-color{
-    font-weight: 500;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: black;
+
+    
+  
+}
+.who .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -8px;
+
+}
+
+
+.who .bg-overlay p{
+  margin-top: 30px;
+text-align: center;
+font-size: 24px;
+
+
+}
+.whowe{
+
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: black;
+
+    
+  
+}
+.whowe .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -8px;
+
+}
+
+
+.whowe .bg-overlay p{
+  margin-top: 30px;
+text-align: center;
+font-size: 24px;
+}
+
+
+.our{
+
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: black;
+
+    
+  
+}
+.our .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -8px;
+
+}
+
+
+.our .bg-overlay p{
+  margin-top: 30px;
+text-align: center;
+font-size: 24px;
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+  .container {
+  padding: 16px;
+  color: black;
+}
+
+.aaa{
+font-size: 20px;
+
+  color: white;
+  border-radius: 4px;
+  
+  
+  text-align: center;
+
+
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
   }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+.xyz {
+    padding:50px;
+   text-align: center;
+   border-style: none;
+  
+}
+
+.xyz h5{
+
+    text-align: center;
+    font-size: 28px;
+}
+.xyz p{
+text-align: center;
+font-size: 20px;
+margin-top: 30px;
+
+}
+
+
+
+
+
+
+

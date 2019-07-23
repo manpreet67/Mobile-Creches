@@ -41,13 +41,32 @@ input[type=submit]:hover {
   
   padding: 2px;
 }
-.nav-link
-{
-  color: white;
-  padding: 5px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
+
+.bg-dark{
+      background-color: #b00707 !important;
+    }
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+    }
+    .nav-link{
+      
+      color: #fff !important;
+    }
+    .active{
+      background-color: #1a1a1a;
+    }
+    .dropdown-item{
+      background-color: #ddd;
+      border-style: dashed;
+    }
+
+
+
+
+
+
+
+
 
 
 .list-unstyled a{
