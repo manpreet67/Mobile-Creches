@@ -84,7 +84,7 @@ position: relative;
   
   }
   .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/a26.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../image/a26.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

@@ -277,7 +277,7 @@ transform:translatey(0);
   
 }
 .who .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic5.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../image/pic5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -309,7 +309,7 @@ font-size: 24px;
   
 }
 .whowe .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic17.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../image/pic17.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -341,7 +341,7 @@ font-size: 24px;
   
 }
 .our .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../images/pic7.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../image/pic7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
